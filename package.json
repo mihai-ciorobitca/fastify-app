@@ -1,0 +1,22 @@
+{
+  "name": "my-fastify-app",
+  "version": "1.0.0",
+  "description": "A simple Fastify application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "fastify": "^4.0.0",
+    "fastify-plugin": "^5.0.1",
+    "point-of-view": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "nodemon": "^2.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

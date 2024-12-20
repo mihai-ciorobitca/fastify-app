@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Performance Test Page</h1>
+    <div class="container">
+        <% for (let i = 0; i < 1000; i++) { %>
+            <div class="box">
+                <p>Box <%= i + 1 %></p>
+            </div>
+        <% } %>
+    </div>
+</body>
+</html>
